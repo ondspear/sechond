@@ -1,0 +1,17 @@
+{
+	"name" : "bondspear/sechond",
+	"minimum-stability" : "dev",
+	"repositories" : [{
+			"type" : "git",
+			"url" : "https://github.com/ondspear/compas"
+		}
+	],
+	"require" : {
+		"bondspear/compas" : "dev-master"
+	},
+	"autoload" : {
+		"classmap" : [
+			"src"
+		]
+	}
+}
